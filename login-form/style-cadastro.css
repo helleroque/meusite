@@ -1,0 +1,46 @@
+main form input {
+    background-color: rgb(174, 150, 231);
+    margin-top: 1rem;
+}
+input::placeholder {
+    background-color: rgb(174, 150, 231);
+    color: rgb(51, 0, 92, 0.5);
+}
+input:nth-child(1){
+    animation: none;
+    background-color: rgb(174, 150, 231);
+}
+form .input-field:first-child {
+    margin-bottom: 0.1rem;
+    margin-top: 0.1rem;
+}
+main h1 {
+    font-weight: 600;
+    margin-bottom: 1rem;
+    position: relative ;
+}
+
+main h1::before {
+    content: "";
+    position: absolute;
+    height: 4px;
+    width: 50%;
+    bottom: 3px;
+    left: 0;
+    border-radius: 8px;
+    background: repeating-linear-gradient(-45deg, rgb(162, 47, 255), #587dcc 10%);
+}
+ .registration-field {
+    padding-left: 0.8rem;
+    border-radius: 4px;
+    font-size: 0.85rem;
+    width: 50%;
+    cursor: pointer;
+    margin-top: 1rem;  
+    align-self: center;  
+    background: linear-gradient(to right,rgb(162, 47, 255), #587dcc);
+}
+.registration-field a {
+    text-decoration: none;
+    color: azure;
+}
